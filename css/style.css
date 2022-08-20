@@ -1,0 +1,280 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: 0;
+ border: 0;
+ box-sizing: border-box;
+}
+	
+	
+.header_top{
+ width: 100%;
+ background: #730099;
+}
+.container{
+width: 100%;
+background: #730099;
+}
+
+
+.logo_part{
+ width: 20%;
+ padding-top:;
+ padding-left: 20px;
+ background:#730099;
+ float: left;
+}
+.header_center{
+ width: 50%;
+ background:#730099;
+ float: left;
+ padding-top: 10px;
+ font-family: sens-serif;
+ font-size:12px;
+}
+.logo_part img{
+	width: 200px;
+	height: 35px;
+	float: left;
+	padding-top: 5px;
+
+}
+.menu_part{
+ width: 30%;
+ background: #730099;
+ float: left;
+}
+.menu_part ul{
+ list-style: none;
+}
+.menu_part a{
+ font-size: 18px;
+ color: white;
+ list-style: none;
+}
+.menu_part li{
+  display: inline-block;
+  padding: 10px;
+  float: left;
+ padding-bottom: 10px;
+}
+.hero_area{
+	width: 100%;
+	height: 400px;
+	background: #730099;
+	font-family:sens-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+.hero_area button{
+	background: green;
+	color: white;
+	font-size: 20px;
+}
+
+
+
+.provide_area{
+	width: 100%;
+	height: 160px;
+	background: #00cc99;
+}
+.provide_area h2{
+	font-family:sens-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;	
+}
+.provide_area h2::after{
+	content:"";
+	display: block;
+	border-top: 2px solid black;
+	margin: 20px 0px;
+}
+.provide_area h5{
+	font-family:sens-serif;
+	font-size: px;
+	color: white;
+	text-align: center;
+	padding-top: px;
+}
+.WORK_SKILL{
+	width: 100%;
+	height: 400px;
+	background: yellow;
+}
+.skill_name{
+	width: 100%;
+	height: 400px;
+	background: green;
+}
+.BANDINDG{
+	width: 25%;
+	height: 400px;
+	background: blue;
+	float: left;
+}
+.DESIGN{
+	width: 25%;
+	height: 400px;
+	background: #ff3333;
+	float: left;
+}
+.DEVELOMENT{
+	width: 25%;
+	height: 400px;
+	background:  #ff66ff;
+	float: left;
+}
+.ROCKET_SCIENCE{
+	width: 25%;
+	height: 400px;
+	background: #99ff99;
+	float: left;
+}
+
+
+
+
+.team_meet_area{
+	width: 100%;
+	height: 150px;
+	background: silver;
+}
+.team_meet_area h2{
+	font-family:sens-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+}
+.team_meet_area h2::after{
+	content:"";
+	display: block;
+	border-top: 2px solid black;
+	margin: 20px 0px;
+}
+.team_meet_area h4{
+	font-family:sens-serif;
+	font-size: px;
+	color: white;
+	text-align: center;
+	padding-top: px;
+}
+.team_member{
+	width: 100%;
+	height: 400px;
+	background: silver;
+}
+.member_list{
+	width: 100%;
+	height: 400px;
+	background: red;
+}
+.member_one{
+	width: 25%;
+	height: 400px;
+	background: green;
+	float: left;
+} 
+.member_two{
+	width: 25%;
+	height: 400px;
+	background: blue;
+	float: left;
+} 
+.member_three{
+	width: 25%;
+	height: 400px;
+	background: #730099;
+	float: left;
+} 
+.member_four{
+	width: 25%;
+	height: 400px;
+	background: yellow;
+	float: left;
+} 
+.ask{
+	width: 100%;
+	height: 150px;
+	background: silver;
+}
+.ask h1{
+	font-family:sens-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+}
+.ask h1::after{
+	content:"";
+	display: block;
+	border-top: 2px solid black;
+	margin: 20px 0px;
+}
+.ask h4{
+	font-family:sens-serif;
+	font-size: px;
+	color: white;
+	text-align: center;
+	padding-top: px;
+}
+.question_area{
+	width: 100%;
+	height: 400px;
+	background: #730099;
+}
+.question_area .one {
+	width: 100px;
+	height: 80px;
+	background: yellow;
+	position: absolute;
+	left: 10px;
+	padding-top: 20px;
+	border: 10px solid red;
+	z-index: 1;
+}
+.question_area .two {
+	width:100px;
+	height: 80px;
+	background: red;
+	position: absolute;
+	padding: right;
+	padding-top: 20px;
+	right: 10px;
+	border: 10px solid green;
+	z-index: 2;
+}
+
+.question_area .three {
+	width: 100px;
+	height: 80px;
+	background: orange;
+	position: absolute;
+	padding-top: 0px;
+	left: 20px;
+	border: 10px solid blue;
+	z-index: 3;
+}  
+.question_area .four {
+	width: 50%;
+	height: 50%;
+	background: orange;
+	position: absolute;
+	padding-top: 0px;
+	right: 10px;
+	border: 10px solid blue;
+	z-index: 4;
+} 
+
+.center{
+	width: 100%;
+	height: 300px;
+	background: green;
+	float: left;
+	text-align: center;
+}
